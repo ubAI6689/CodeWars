@@ -8,5 +8,4 @@ def tribonacci(signature, n, index=3):
         signature.append(new_element)
         return tribonacci(signature, n, index+1)
     #your code here
-
 print(tribonacci([1, 1, 1], 10))
