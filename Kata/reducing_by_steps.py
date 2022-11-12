@@ -32,9 +32,9 @@ def oper_array(fct, arr, init):
     # your code
     res=[]
     for i in range(len(arr)):
-        x = fct(init,arr[i])
-        res.append(x)
-        init=res[i]
+        init = fct(init,arr[i])
+        res.append(init)
+        # init=res[i]
     return res
 
         
